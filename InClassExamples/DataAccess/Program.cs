@@ -33,6 +33,8 @@ namespace DataAccess
             result = Add(allTheNumbers);
             Console.WriteLine(result);
 
+            DatabaseStuff();
+
             Console.ReadKey();
         }
         
@@ -70,6 +72,11 @@ namespace DataAccess
             }
 
             return sum;
+        }
+
+        static void DatabaseStuff()
+        {
+
         }
     }
 }
