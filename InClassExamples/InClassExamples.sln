@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFexample", "WPFexample\WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{555FB07A-3C06-43FD-A546-BE14CCA18708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProcessing", "WPF_FileProcessing\WPF_FileProcessing.csproj", "{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{555FB07A-3C06-43FD-A546-BE14CCA18708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555FB07A-3C06-43FD-A546-BE14CCA18708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555FB07A-3C06-43FD-A546-BE14CCA18708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

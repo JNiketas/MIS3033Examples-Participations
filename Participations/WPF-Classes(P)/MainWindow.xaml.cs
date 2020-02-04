@@ -43,7 +43,7 @@ namespace WPF_Classes_P_
             EF.Name = Name;
             EF.ZipCode = ZipCode;
 
-            lstForm.Items.Add(EF);
+            lstForm.Items.Add(EF.ToString());
         }
     }
 }

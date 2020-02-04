@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF_FileProcessing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_FileProcessing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="164*"/>
+            <RowDefinition Height="255*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnPride" Content="Get Pride" HorizontalAlignment="Right" Margin="0,171,539,0" VerticalAlignment="Top" Width="115" Height="44" Grid.Row="1" Click="btnPride_Click"/>
+        <Button x:Name="btnSales" Content="Get Sales" Margin="534,171,143,0" VerticalAlignment="Top" Height="44" Grid.Row="1" Click="btnSales_Click"/>
+        <ListBox x:Name="lstSales" HorizontalAlignment="Left" Height="309" Margin="410,10,0,0" VerticalAlignment="Top" Width="372" Grid.RowSpan="2"/>
+        <RichTextBox x:Name="rtbPride" Height="309" Margin="10,10,410,0" VerticalAlignment="Top" Grid.RowSpan="2">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
