@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:WPF_ClickTheButton_P_"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grdMain">
+    <Grid x:Name="grdMain" HorizontalAlignment="Left" Width="792">
         <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Height="66" Margin="327,306,0,0" VerticalAlignment="Top" Width="144" MouseEnter="btnSubmit_MouseEnter"/>
         <Label Content="Sign Up for the Mailing List" HorizontalAlignment="Left" Height="43" Margin="258,10,0,0" VerticalAlignment="Top" Width="325" FontSize="24" FontWeight="Bold"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="32" Margin="342,116,0,0" TextWrapping="Wrap" Text="John Niketas" VerticalAlignment="Top" Width="218" FontSize="18"/>
         <Label Content="Name:" HorizontalAlignment="Left" Height="32" Margin="249,116,0,0" VerticalAlignment="Top" Width="70" FontSize="18"/>
         <Label Content="Email:" HorizontalAlignment="Left" Height="33" Margin="249,172,0,0" VerticalAlignment="Top" Width="70" FontSize="18"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="33" Margin="342,172,0,0" TextWrapping="Wrap" Text="Niketas.john@yahoo.com" VerticalAlignment="Top" Width="218" FontSize="18"/>
+        <TextBox x:Name="txtEmail" Height="33" Margin="342,172,232,0" TextWrapping="Wrap" Text="Niketas.john@yahoo.com" VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>
 </Window>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProcessing", "WPF_FileProcessing\WPF_FileProcessing.csproj", "{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_JSON_RickAndMorty", "WPF_JSON_RickAndMorty\WPF_JSON_RickAndMorty.csproj", "{7B37E44E-610F-43E2-A01B-07BB6F9E5011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB3BC6F-B973-4DFE-A822-C278E7EB4FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
