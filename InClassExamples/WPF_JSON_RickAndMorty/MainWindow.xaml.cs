@@ -39,6 +39,8 @@ namespace WPF_JSON_RickAndMorty
             {
                 lstCharacters.Items.Add(character);
             }
+
+           
             
         }
 

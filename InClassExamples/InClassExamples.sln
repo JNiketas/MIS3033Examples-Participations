@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProcessing", "WPF_F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_JSON_RickAndMorty", "WPF_JSON_RickAndMorty\WPF_JSON_RickAndMorty.csproj", "{7B37E44E-610F-43E2-A01B-07BB6F9E5011}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonParticipation", "PokemonParticipation\PokemonParticipation.csproj", "{F54CC37F-DCD6-40C8-BD56-71D5CF855AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B37E44E-610F-43E2-A01B-07BB6F9E5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54CC37F-DCD6-40C8-BD56-71D5CF855AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54CC37F-DCD6-40C8-BD56-71D5CF855AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54CC37F-DCD6-40C8-BD56-71D5CF855AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54CC37F-DCD6-40C8-BD56-71D5CF855AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
