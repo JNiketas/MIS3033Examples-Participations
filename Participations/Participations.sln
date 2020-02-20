@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-ClickTheButton(P)", "WP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Pokemon(P)", "JSON-Pokemon(P)\JSON-Pokemon(P).csproj", "{4B31A63B-701E-4075-957E-67EF3009A974}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-JSON-GOTQuote(P)", "WPF-JSON-GOTQuote(P)\WPF-JSON-GOTQuote(P).csproj", "{08B70C35-D771-4D6E-8414-D5C95668AF6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4B31A63B-701E-4075-957E-67EF3009A974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B31A63B-701E-4075-957E-67EF3009A974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B31A63B-701E-4075-957E-67EF3009A974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B70C35-D771-4D6E-8414-D5C95668AF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B70C35-D771-4D6E-8414-D5C95668AF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B70C35-D771-4D6E-8414-D5C95668AF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B70C35-D771-4D6E-8414-D5C95668AF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
