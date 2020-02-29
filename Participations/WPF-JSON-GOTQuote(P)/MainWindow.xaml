@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPF_JSON_GOTQuote_P_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_JSON_GOTQuote_P_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grdGrid">
+        <Button Content="Button" HorizontalAlignment="Left" Height="75" Margin="10,314,0,0" VerticalAlignment="Top" Width="182" Click="Button_Click"/>
+        <Label x:Name="lblQuote" Content="" HorizontalAlignment="Left" Height="38" Margin="37,34,0,0" VerticalAlignment="Top" Width="703"/>
+        <WebBrowser x:Name="wbGotImage" HorizontalAlignment="Left" Height="281" VerticalAlignment="Top" Width="253" Margin="509,108,0,0"/>
+        <Image x:Name="imgGotImage" HorizontalAlignment="Left" Height="268" Margin="274,108,0,0" VerticalAlignment="Top" Width="201"/>
+
+    </Grid>
+</Window>
